@@ -9,5 +9,6 @@ L'objectif est d'analyser les besoins du site (qui seront les utilisateurs ? que
 
 Lancer le fichier index.html dans le serveur via cette commande dans Powershell : python -m http.server 8001
 
-Lancer le script via cette commande : python -m fastapi_chatbot.py
+Lancer le script via cette commande : python -m api.fastapi_chatbot.py
+
 Connectez-vous à cette adresse : http://localhost:8001/
