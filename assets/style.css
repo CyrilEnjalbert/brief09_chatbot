@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+}
+.chatbox{
+    position: fixed;
+    right:40px;
+    bottom: 40px;
+    width: 420px;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
+    border: solid;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+#button-send{
+    text-align: center;
+}
+#chat-add{
+    border: 2px solid;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;    
+}
+#chatbot-title{
+    font-family: bold;
+    text-align: center;
+}
+.chat-msg-user,.chat-msg-quest{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: rgb(51, 124, 184);
+    border-radius: 15px;
+    padding: 10px;
+    right : 10px;
+    text-align: right;
+    width: auto;
+    font-weight: bold;
+    
+}
+.chat-msg-assist,.chat-msg-answ{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: #8d8d8d;
+    border-radius: 10px;
+    padding: 10px;
+    left : 10px;
+    text-align: left;
+    width: auto;
+    font-weight: bold;
+
+}
+
+
+
